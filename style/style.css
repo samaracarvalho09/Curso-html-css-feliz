@@ -1,0 +1,63 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b8f2e6;
+    border-bottom: 10px solid #b0c4b1;
+    padding: 10px 20px;
+    
+}
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    color: #ffa69e;
+    text-shadow: 5px 5px 0px black;
+}
+
+nav{
+text-align: right; 
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+     color: #22333b;
+    font-size: 20px;
+    font-family:"Fira code";
+    font-weight: 300;
+   text-decoration: none;
+   margin-right: 30px;
+   }
+
+a::before { 
+    content:"";
+    background-color: #edafb8; 
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;    
+
+}
+
+span {    
+    background-color: #edafb8;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+  
+
+
+#button {
+    display: inline-block;
+    background-color: #edafb8;
+    box-shadow: 5px 5px 0px #000;
+    padding: 18px 20px;
+    margin-right: 0;
+    transition: 0.2s linear; /*faz uma transição "suaviza" entre propriedades aplicadas*/
+}
+
+#button:hover { /*para adicionar efeitos no botão*/
+    transform: scale(1.08); /*aumenta o botão*/ 
+    background-color: #b56576;
+}
